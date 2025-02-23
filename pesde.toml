@@ -1,0 +1,20 @@
+name = "sanssanssanssanssa/extable"
+version = "1.0.0"
+description = ""
+authors = ["nathanjoe1209"]
+repository = ""
+license = "MIT"
+includes = ["README.md", "pesde.toml", "src/**", "LICENSE"]
+
+[target]
+environment = "lune"
+lib = "src/lib/init.luau"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
+
+[scripts]
+test = "scripts/test.luau"
+
+[dev_dependencies]
+frktest = { name = "itsfrank/frktest", version = "^0.0.2" } 

@@ -1,0 +1,25 @@
+local all = require("./functions/all")
+local concat = require("./functions/concat")
+local filter = require("./functions/filter")
+local find = require("./functions/find")
+local flatten = require("./functions/flatten")
+local foreach = require("./functions/foreach")
+local group = require("./functions/group")
+local map = require("./functions/map")
+local reduce = require("./functions/reduce")
+local some = require("./functions/some")
+local unique = require("./functions/unique")
+local module = {}
+module.all = all.all
+module.concat = concat.concat
+module.filter = filter.filter
+module.findfirst = find.findfirst
+module.findtotables = find.findtitable
+module.flatten = flatten.flatten
+module.foreach = foreach.foreach
+module.group = group.groupBy
+module.map = map.map
+module.reduce = reduce.reduce
+module.some = some.some
+module.unique = unique.unique
+return module
